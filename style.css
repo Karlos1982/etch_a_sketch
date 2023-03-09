@@ -1,0 +1,62 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-grid {
+    padding: 12px;
+}
+
+.new-grid button {
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.board {
+    width: 700px;
+    height: 700px;
+    display: grid;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    flex: 1;
+}
+
+.buttons {
+    padding: 16px;
+}
+
+.buttons button{
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 16px;
+
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.random {
+    background: linear-gradient(0.25turn, rgb(98, 98, 216), rgb(81, 187, 81), rgb(202, 92, 92), rgb(214, 214, 88));
+
+}
